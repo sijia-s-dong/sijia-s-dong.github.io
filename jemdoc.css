@@ -60,7 +60,7 @@ a, a > tt {
 	text-decoration: none;
 }
 
-a:hover {
+a:link, a:hover {
 	border-bottom: 1px gray dotted;
 }
 
