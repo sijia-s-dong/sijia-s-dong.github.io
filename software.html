@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--- <title>Software Development</title> --->
+<title>The Dong Lab</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<div id="header-text-container">
+<a href="index.html">The Dong Lab</a>
+</div>
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout">
+<div id="layout-menu-container">
+<div id="layout-menu">
+<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-category">The Work</div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="presentations.html">Presentations</a></div>
+<div class="menu-item"><a href="software.html" class="current">Software</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-category">The People</div>
+<div class="menu-item"><a href="pi.html">Sijia&nbsp;Dong</a></div>
+<div class="menu-item"><a href="group.html">Group&nbsp;Members</a></div>
+<div class="menu-item"><a href="openings.html">Openings</a></div>
+</div> <!-- <div id="layout-menu"> -->
+</div> <!-- <div id="layout-menu-container"> -->
+<div id="layout-content-container">
+<div id="layout-content">
+<div id="toptitle">
+<h1>Software Development</h1>
+<div id="subtitle">Our group actively develops computational methods and tools to enable and automate simulations. </div>
+</div>
+<h2>MolExtract</h2>
+<p><a href="https://github.com/sdonglab/molextract" target=&ldquo;blank&rdquo;>MolExtract</a> is an open-source rule-based parser for output files of computational chemistry software. Currently, it can work with OpenMolcas/Molcas and Gaussian output files. The latest release is available for installation on PyPI. </p>
+<p>The development of MolExtract is spearheaded by our undergraduate student Nithin Chintala. Let us know if you would like to contribute!</p>
+<h2>MultiLigDock</h2>
+<p>MultiLigDock automates the docking of multiple ligands to a macromolecule. We developed it as a Schrödinger plugin and has interfaced it with Glide.</p>
+<p>The development of MultiLigDock was spearheaded by our undergraduate students Nate White and Nithin Chintala! </p>
+<h2>WEST</h2>
+<p>Sijia is a developer of <a href="http://www.west-code.org/index.php" target=&ldquo;blank&rdquo;>WEST</a>, which is a massively parallel software for large scale electronic structure calculations within many-body perturbation theory.</p>
+<h2>OpenMolcas</h2>
+<p>Sijia is a developer of the quantum chemistry software package <a href="https://gitlab.com/Molcas/OpenMolcas" target=&ldquo;blank&rdquo;>OpenMolcas</a>, which features multiconfigurational methods. </p>
+<h2>ActiveGEnSeMBLE</h2>
+<p>GEnSeMBLE is a software suite developed by multiple members from the <a href="https://scholar.google.com/citations?user=yMZlErUAAAAJ&amp;hl=en" target=&ldquo;blank&rdquo;>Goddard</a> Group at Caltech for computationally predicting the conformations of G protein-coupled receptors (GPCRs). </p>
+<p>ActiveGEnSeMBLE is a strategy based partly on the usage of the GEnSeMBLE package. While GEnSeMBLE tends to bias towards the inactive-state conformations, ActiveGEnSeMBLE predicts ensembles of GPCR conformations along GPCR activation pathways, including the higher-energy active-state conformations relevant to the functions of GPCRs. </p>
+<p>One key component of ActiveGEnSeMBLE is the identification of relevant states among the large number of possible GPCR conformations. The procedure has been detailed in Ref. 1, 2 below. Sijia authored a group of Python scripts (ActiveSearch) for this purpose, including ones used in conjuction with GEnSeMBLE and ones used for analyzing molecular dynamics trajectories, and they are available upon reasonable request. </p>
+<p>Citations for ActiveGEnSeMBLE, including ActiveSearch:</p>
+<ol>
+<li><p><b>Sijia S. Dong</b>, William A. Goddard III, Ravinder Abrol. Conformational and Thermodynamic Landscape of GPCR Activation From Theory and Computation. <i>Biophys. J.</i>, 2016, 110 (12), 2618-2629. <a href="http://www.cell.com/biophysj/abstract/S0006-3495(16)30231-4" target=&ldquo;blank&rdquo;>(Link)</a></p>
+</li>
+<li><p><b>Sijia S. Dong</b>, William A. Goddard III, Ravinder Abrol. Identifying Multiple Active Conformations in the G Protein-Coupled Receptor Activation Landscape Using Computational Methods. <i>Methods in Cell Biology</i>, 2017, 142, 173-186. <a href="https://doi.org/10.1016/bs.mcb.2017.07.009" target=&ldquo;blank&rdquo;>(Link)</a></p>
+</li>
+</ol>
+<h2>Others</h2>
+<p>This webpage only contains information of software or scripts available to the public. For others, please contact us or co-authors of the associated publications for details.</p>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+The Dong Theoretical and Computational Chemistry Lab <br>
+Department of Chemistry and Chemical Biology, Northeastern University <br>
+Interdisciplinary Science & Engineering Complex <br>
+360 Huntington Ave, Boston, MA 02115 <br>
+Page generated using <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design</a>.
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+</div> <!-- <div id="layout-content-container"> -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1400) {
+        document.getElementById("layout-menu").style.width = "170px";
+        document.getElementById("layout-content-container").style.marginLeft = "170.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1400) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>

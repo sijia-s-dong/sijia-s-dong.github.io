@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--- <title>News Archive</title> --->
+<title>The Dong Lab</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<div id="header-text-container">
+<a href="index.html">The Dong Lab</a>
+</div>
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout">
+<div id="layout-menu-container">
+<div id="layout-menu">
+<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-category">The Work</div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="presentations.html">Presentations</a></div>
+<div class="menu-item"><a href="software.html">Software</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-category">The People</div>
+<div class="menu-item"><a href="pi.html">Sijia&nbsp;Dong</a></div>
+<div class="menu-item"><a href="group.html">Group&nbsp;Members</a></div>
+<div class="menu-item"><a href="openings.html">Openings</a></div>
+</div> <!-- <div id="layout-menu"> -->
+</div> <!-- <div id="layout-menu-container"> -->
+<div id="layout-content-container">
+<div id="layout-content">
+<div id="toptitle">
+<h1>News Archive</h1>
+</div>
+<p>May 2021: Welcome Elliot to the group! Elliot is an undergraduate student in data science and biochemistry.</p>
+<p>May 2021: Welcome Venkat to the group! Venkat is an undergraduate student in computer science.</p>
+<p>March 2021: Welcome Ryan and Zheyu to the group! Ryan is an undergraduate student in physics. Zheyu is a Master's student in bioinformatics.</p>
+<p>March 2021: Sijia presented at the American Physical Society March Meeting.</p>
+<p>March 2021: Sijia's work &ldquo;Machine learning dielectric screening for the simulation of excited state properties of molecules and materials&rdquo; is online in <a href="https://pubs.rsc.org/en/content/articlehtml/2021/sc/d1sc00503k" target=&ldquo;blank&rdquo;><i>Chemical Science</i></a>.</p>
+<p>Febuary 2021: Welcome Nithin to the group! Nithin is an undergraduate student in biochemistry.</p>
+<p>January 2021: Welcome Janis to the group! Janis is an undergraduate student in biochemistry.</p>
+<p>January 2021:  The Dong Lab is officially open for business.</p>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+The Dong Theoretical and Computational Chemistry Lab <br>
+Department of Chemistry and Chemical Biology, Northeastern University <br>
+Interdisciplinary Science & Engineering Complex <br>
+360 Huntington Ave, Boston, MA 02115 <br>
+Page generated using <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design</a>.
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+</div> <!-- <div id="layout-content-container"> -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1400) {
+        document.getElementById("layout-menu").style.width = "170px";
+        document.getElementById("layout-content-container").style.marginLeft = "170.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1400) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>
